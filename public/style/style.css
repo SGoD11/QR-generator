@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+    position: relative;
+    animation: pulse 10s infinite;
+    font-weight: bolder;
+    font-family: 'Skranji', cursive;
+}
+footer{
+    align-self: baseline;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Fuggles', cursive;
+}
+/* footer > p{
+    text-align: center;
+} */
+body{
+    background-color: #2698d1;
+}
+textarea{
+    background-color: lightblue;
+    border: 0.1rem solid orange;
+    border-radius: 2%;
+    color: brown;
+}
+img{
+    border-radius: 40%;
+    background-blend-mode: difference;
+    mix-blend-mode: darken;
+}
+article{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+form{
+    position: relative;
+    text-align: center;
+}
+.objectsInside{
+    display: inline-block;
+}
+@keyframes pulse {
+    0%   {color: red;}
+    15%{ color:chartreuse}
+  25%  {color: yellow;}
+  35% {color: aliceblue;}
+  50%  {color: rgb(80, 73, 211);}
+  65% {color: orangered;}
+  100% {color: green;}
+  }

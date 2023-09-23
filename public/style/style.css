@@ -4,6 +4,7 @@ h1{
     animation: pulse 10s infinite;
     font-weight: bolder;
     font-family: 'Skranji', cursive;
+    width: 100%;
 }
 footer{
     align-self: baseline;
@@ -12,7 +13,7 @@ footer{
     bottom: 0px;
     width: 100%;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: xx-large ;
     font-family: 'Fuggles', cursive;
 }
 /* footer > p{
@@ -26,6 +27,7 @@ textarea{
     border: 0.1rem solid orange;
     border-radius: 2%;
     color: brown;
+    width: 100%;
 }
 img{
     border-radius: 40%;
@@ -54,3 +56,5 @@ form{
   65% {color: orangered;}
   100% {color: green;}
   }
+
+  

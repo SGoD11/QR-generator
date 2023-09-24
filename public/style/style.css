@@ -1,3 +1,7 @@
+html{
+    
+}
+
 h1{
     text-align: center;
     position: relative;
@@ -5,6 +9,7 @@ h1{
     font-weight: bolder;
     font-family: 'Skranji', cursive;
     width: 100%;
+    background-color: #6f3ebb;
 }
 footer{
     align-self: baseline;
@@ -15,19 +20,21 @@ footer{
     font-weight: bolder;
     font-size: xx-large ;
     font-family: 'Fuggles', cursive;
+    animation: pulse 10s infinite;
 }
 /* footer > p{
     text-align: center;
 } */
 body{
-    background-color: #2698d1;
+    background-color: #8d62cd;
 }
 textarea{
+    margin-top: 1.5rem;
     background-color: lightblue;
     border: 0.1rem solid orange;
     border-radius: 2%;
     color: brown;
-    width: 100%;
+    width: 80%;
 }
 img{
     border-radius: 40%;
@@ -44,6 +51,9 @@ form{
     position: relative;
     text-align: center;
 }
+.submitButton{
+    margin-top: 0.5rem;
+}
 .objectsInside{
     display: inline-block;
 }
@@ -52,9 +62,9 @@ form{
     15%{ color:chartreuse}
   25%  {color: yellow;}
   35% {color: aliceblue;}
-  50%  {color: rgb(80, 73, 211);}
+  50%  {color: rgb(30, 189, 243);}
   65% {color: orangered;}
   100% {color: green;}
-  }
+}
 
   
